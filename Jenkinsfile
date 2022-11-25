@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("brandonjones085/test")
+       app = docker.build("gbacrown/angular-test")
     }
 
     stage('Test image') {
